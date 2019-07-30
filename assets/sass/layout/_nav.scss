@@ -1,1 +1,19 @@
+.navbar-toggler {
+  margin-right: 5%;
+  border: 0;
+}
 
+.navbar-brand {
+  padding-left: 0;
+  @media only screen and(min-width: 768px) {
+    img{
+        transform: rotate(90deg);
+        position: relative;
+        left: -2px;
+    }
+  }
+}
+
+.nav-link{
+  color: $smoky-black 0 !important;
+}

@@ -1,0 +1,79 @@
+.rows {
+	display: grid;
+	grid-template-columns: repeat(12,1fr);
+}
+
+.coll-xs-12 {
+	grid-column-start: span 12;
+}
+
+.header {
+	grid-column: 1 / -1;
+	grid-row: 3 / 5;
+}
+
+.main {
+	grid-column: 2 / -1;
+	grid-row: 8 / 10;
+	@media only screen and(min-width: 992px) {
+		grid-row: 2 / 10;
+	}
+}
+
+.footer {
+	grid-column: 1 / -1;
+	grid-row: 11 / 12;
+	@media only screen and(min-width: 992px) {
+		grid-column: 1 / -7;
+		grid-row: 5 /5;
+	}
+
+	.footer__tittle {
+		color: $white;
+		font-family: $Old-Standar;
+		font-size: $x-large;
+		font-weight: $bold;
+		padding-left: 17%;
+		padding-top: 3%;
+	}
+
+	.footer__text--correo {
+		color: $isabelline;
+		font-family: $Old-Standar;
+		font-size: $medium;
+		font-weight: $regular;
+		padding-left: 17%;
+	}
+
+	.footer__text--rotate {
+		background-color: $white;
+		position: absolute;
+		right: -61px;
+		bottom: 62px;
+		width: 150px;
+		-moz-transform: rotate(90deg);
+		/* FF3.5+ */
+		-o-transform: rotate(90deg);
+		/* Opera 10.5 */
+		-webkit-transform: rotate(90deg);
+		/* Saf3.1+, Chrome */
+	}
+
+	.footer__text--suscribir {
+		font-family: $Old-Standar;
+		font-weight: $bold;
+		font-size: $medium;
+		text-align: center;
+	}
+
+	.form-control {
+		color: $isabelline;
+		font-family: $Raleway;
+		font-size: $small;
+		font-weight: $regular;
+		width: 68%;
+		border-radius: 0 !important;
+		position: absolute;
+		left: 17%;
+	}
+}

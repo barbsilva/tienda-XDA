@@ -1,0 +1,55 @@
+.footer {
+  background-color: $smoky-black;
+  height: 150px;
+  width: 100%;
+  position: relative;
+}
+
+.footer__tittle {
+  color: $white;
+  font-family: $Old-Standar;
+  font-size: $x-large;
+  font-weight: $bold;
+  padding-left: 8%;
+  padding-top: 3%;
+}
+
+.footer__text--correo {
+  color: $isabelline;
+  font-family: $Old-Standar;
+  font-size: $medium;
+  font-weight: $regular;
+  padding-left: 8%;
+}
+
+.footer__text--rotate {
+  background-color: $white;
+  position: absolute;
+  right: -61px;
+  bottom: 62px;
+  width: 150px;
+  -moz-transform: rotate(90deg);
+  /* FF3.5+ */
+  -o-transform: rotate(90deg);
+  /* Opera 10.5 */
+  -webkit-transform: rotate(90deg);
+  /* Saf3.1+, Chrome */
+}
+
+.footer__text--suscribir{
+  font-family: $Old-Standar;
+  font-weight: $bold;
+  font-size: $medium;
+  text-align: center;
+}
+
+.form-control{
+  color: $isabelline;
+  font-family: $Raleway;
+  font-size: $small;
+  font-weight: $regular;
+  width: 68%;
+  border-radius: 0 !important;
+  position: absolute;
+  left: 8%;
+}

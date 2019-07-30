@@ -1,1 +1,23 @@
+.btn {
+  font-family: $Raleway;
+  color: $smoky-black;
+  font-size: $small;
+  font-weight: $bold;
+}
 
+.btn-outline-dark {
+  background-color: $white;
+  border-radius: 0;
+  border-color: $smoky-black !important;
+
+  &:hover {
+  background-color: $white;
+  color: $smoky-black;
+  border-color: $granite-gray !important;
+
+    &:focus {
+    background-color: $white;
+    color: $isabelline;
+    }
+  }
+}

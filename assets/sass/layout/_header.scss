@@ -1,1 +1,26 @@
-  
+@media only screen and(min-width: 992px) {
+  .header {
+    background-image: url("../images/large.jpg");
+  }
+
+  .header {
+    grid-column: 7 / -1;
+    grid-row: 3 / 6;
+
+    .main__tittle {
+      padding-top: 5%;
+      font-family: $Old-Standar;
+      font-size: $xx-large;
+      font-weight: $bold;
+      color: $smoky-black;
+      background-color: red;
+    }
+
+    .main__text {
+      font-family: $Raleway;
+      font-size: $small;
+      font-weight: $regular;
+      color: $granite-gray;
+    }
+  }
+}
